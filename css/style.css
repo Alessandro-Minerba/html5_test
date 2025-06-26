@@ -1,0 +1,83 @@
+/* body {
+    background-color: #dedede;
+}
+
+/* header1 text style */
+/* h1 {
+    color: #333;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+} */
+
+/* paragrafph text style*/
+/* p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+} */
+
+/* bottom text style */
+/* a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+} */
+
+/* img {
+    width: 100%;
+    height: auto;
+}  */
+
+/* div {
+    border: 8px solid #000;
+    display: inline-block;
+} */
+
+/* div img {
+    border: 8px solid #000;
+} */
+
+/* only odd images in divs */
+/* div:nth-child(odd) img{
+    border: 8px solid #000;
+} */
+
+/* 2nd column*/
+div:nth-child(2n) img{
+    border: 8px solid #000;
+    position: relative;
+}
+
+/* main div:hover{
+    border-style: none;
+} */
+
+div {
+    color: #000;
+    background: #2db34a;
+    line-height: 200px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+
+    transition-property: color, width, background, border-radius;
+    transition-duration:  .5s;
+    transition-timing-function: linear;
+    transition-delay: .5s;
+
+    transition: .5s linear .5s;
+}
+
+div:hover {
+    background: #1a6d2b;
+    color: #fff;
+    width: 350px;
+    border-radius: 50%;
+}
+
+div:active {
+    background: #1a6d2b;
+    color: #000;
+    width: 150px;
+}
